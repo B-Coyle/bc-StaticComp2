@@ -26,8 +26,8 @@ ul {
 }
 
 li {
-  font-weight: 500;
   font-size: .9rem;
+  font-weight: 500;
 }
 
 header {
@@ -41,26 +41,26 @@ article {
 }
 
 th, tr, td {
+  background-color: #f1f1f2;
   border-bottom: 3px solid #34675c;
   border-collapse: collapse;
-  background-color: #f1f1f2;
 }
 
 i {
-  border: solid #f1f1f2;
   border-width: 0 2px 2px 0;
+  border: solid #f1f1f2;
   display: inline-block;
   padding: 2px;
 }
 
 .icons {
-  width: 20px;
   margin: 1px 3px 1px 1px;
+  width: 20px;
 }
 
 .icons-large {
-  width: 25px;
   margin: 15px 20px;
+  width: 25px;
 }
 
 .is-flex {
@@ -89,9 +89,9 @@ input[type='checkbox'] {
 }
 
 .arrow-left {
-  transform: rotate(135deg);
   left: 10px;
   top: 20px;
+  transform: rotate(135deg);
 }
 
 .arrow-down {
@@ -99,8 +99,8 @@ input[type='checkbox'] {
 }
 
 .top-bottom-border {
-  border-top: 2px solid lightgray;
   border-bottom: 2px solid lightgray;
+  border-top: 2px solid lightgray;
 }
 
 .searchbar-nav-container li {
@@ -117,16 +117,16 @@ input[type='checkbox'] {
 }
 
 .searchbar-nav-input {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 25px;
   background: url(Images/searchicon.svg);
   border: 0;
-  background-repeat: no-repeat;
-  background-position: 10px 10px;
-  background-size: 25px;
   font-size: 1.2rem;
   font-weight: 300;
+  height: 100%;
   padding-left: 40px;
   width: 100%;
-  height: 100%;
 }
 
 .flex-value-1 {
@@ -136,24 +136,24 @@ input[type='checkbox'] {
 .side-navbar {
   background-color: #2C7873;
   color: #FFFFFF;
-  width: 165px;
   grid-area: side-navbar;
+  width: 165px;
 }
 
 .side-navbar-profile {
-  text-align: center;
   padding-top: 
+  text-align: center;
 }
 
 .side-navbar__profile-pic {
+  border-radius: 50%;
   margin: 25px 10px 10px 10px;
   width: 40%;
-  border-radius: 50%;
 }
 
 .side-navbar__sub-nav-title {
-  margin: 10px 20px;
   font-size: .7rem;
+  margin: 10px 20px;
 }
 
 .side-navbar__sub-nav {
@@ -165,46 +165,46 @@ input[type='checkbox'] {
   padding: 0 10px;
 }
 .side-navbar__sub-nav li:hover {
+  background-color: green;
   border-radius: 10px;
   cursor: pointer; 
-  background-color: green;
 }
 
 .job-title {
-  grid-area: job-title;
-  justify-content: space-between;
-  padding: 25px 25px 5px 25px;
   align-items: center;
   background-color: #1995ad;
   color: #ffffff;
+  grid-area: job-title;
+  justify-content: space-between;
+  padding: 25px 25px 5px 25px;
 }
 
 .job-title__buttons {
-  border: 1px solid black;
+  background-color: #063852;
   border-radius: 50%;
-  text-align: center;
+  border: 1px solid black;
+  height: 30px;
   margin: 0 5px;
   padding: 5px 0px 5px 3px;
+  text-align: center;
   width: 30px;
-  height: 30px;
-  background-color: #063852;
 }
 
 .job-title__status {
+  background-color: #063852;
+  border-radius: 15px;
   border: 1px solid black;
   height: 30px;
   margin-right: 5px;
   padding: 5px 10px;
-  border-radius: 15px;
-  background-color: #063852;
 }
 
 .job-title__status-color {
+  background-color: yellowgreen;
+  border-radius: 50%;
+  display: inline-block;
   height: 10px;
   width: 10px;
-  border-radius: 50%;
-  background-color: yellowgreen;
-  display: inline-block;
 }
 
 .job-info-nav {
@@ -216,9 +216,9 @@ input[type='checkbox'] {
 }
 
 .job-info-nav ul li {
-  margin: 0 5px 5px 15px;
   font-size: .6rem;
   font-weight: 800;
+  margin: 0 5px 5px 15px;
   transition: border-bottom 1s;
 }
 
@@ -297,9 +297,9 @@ svg:hover {
 .bar-chart-image {
   grid-column: 2;
   grid-row: 1;
+  height: 100%;
   text-align: center;
   width: 100%;
-  height: 100%;
 }
 
 .totals {
@@ -330,29 +330,29 @@ svg:hover {
 
 .job-description-table-profile {
   border-radius: 50%;
-  width: 50px;
   height: 50px;
+  width: 50px;
 }
 
 .job-description-table-title {
-  padding: 16px;
-  color: white;
   background-color: #2d4262;
+  color: white;
+  padding: 16px;
 }
 
 .job-description-edit-button {
-  padding: 5px 10px;
-  border-radius: 5px;
   background-color: ##2d4262;
-  margin: 0 5px;
+  border-radius: 5px;
   cursor: pointer;
+  margin: 0 5px;
+  padding: 5px 10px;
 }
 
 .job-description-table tr td {
-  padding: 20px 15px;
   font-size: .7rem;
-  padding-left: 20px;
   font-weight: 200;
+  padding-left: 20px;
+  padding: 20px 15px;
 }
 
 .social-links-color1 {
@@ -371,8 +371,8 @@ svg:hover {
 }
 
 .social-links {
-  grid-area: social-links;
   background-color: #2C7873;
+  grid-area: social-links;
   padding: 20px 20px 20px 0;
 }
 
@@ -381,15 +381,16 @@ svg:hover {
 }
 
 .social-links-social li {
-  text-align: center;
+  border-radius: 3px;
   cursor: pointer;
   margin: 10px;
   padding: 8px;
-  border-radius: 3px;
+  text-align: center;
 }
+
 .social-links-links {
-  padding: 5px 0;
   margin: 10px;
+  padding: 5px 0;
 } 
 
 .social-links-links li {
@@ -397,12 +398,12 @@ svg:hover {
 }
 
 .social-links-links li input {
-  max-width: 100%;
-  height: 30px;
-  border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  flex: 1;
+  border-top-left-radius: 5px;
   display: inline;
+  flex: 1;
+  height: 30px;
+  max-width: 100%;
 }
 
 .social-links-links li:nth-child(1) {
@@ -415,11 +416,11 @@ svg:hover {
 }
 
 .social-links-copy-button {
-  padding: 5px;
   background-color: lightgreen;
-  border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
   cursor: pointer;
+  padding: 5px;
 }
 
 @media only screen and (max-width: 768px) {
