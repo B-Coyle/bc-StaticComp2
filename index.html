@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <title>Static Comp II</title>  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="searchbar-nav-container is-flex ">
+        <li id="hide-btn" class="is-relative nav-icons">
+          <i class="arrow-left is-absolute"></i>
+          <img src="Images/horizontallineicon.svg" alt="left menu" 
+          class="icons-large">
+        </li>
+        <li class="flex-value-1"><input type="search" 
+          class="searchbar-nav-input" value="Search for a job, task, or quest"></li>
+        <li class="nav-icons"><img src="Images/profileicon.svg" alt="user profile/icon" 
+          class="icons-large"></li>
+        <li class="nav-icons"><img src="Images/remindericon.svg" alt="reminder icon"
+          class="icons-large"></li>
+        <li class="nav-icons"><img src="Images/gridicon.svg" alt="4x4 grid icon" 
+          class="icons-large"></li>
+      </ul>
+    </nav>
+  </header>
+  <nav class="side-navbar">
+    <ul>
+      <li class="side-navbar__profile"> 
+        <img src="Images/profilepic.jpeg" alt=" male profile picture" class="side-navbar__profile-pic">
+        <p>Jack O. Altrade <i class="arrow-down"></i></p>
+      </li>
+      <li class="border-top">
+        <p class="side-navbar__sub-nav-title"> MAIN</p>
+        <ul class="side-navbar__sub-nav">
+          <li><img class="icons" src="Images/homeicon.svg" 
+            alt="home icon"> HOME</li>
+          <li><img class="icons" src="Images/briefcaseicon.svg" 
+            alt="jobs icon"> JOBS</li>
+          <li><img class="icons" src="Images/inventoryicon.svg" 
+            alt="resumes icon"> INVENTORY</li>
+          <li><img class="icons" src="Images/taskicon.svg" 
+            alt="tasks icon"> QUESTS</li>
+          <li><img class="icons" src="Images/calendaricon.svg" 
+            alt="home icon"> CALENDAR</li>
+        </ul>
+      </li>
+      <li class="border-top">
+        <p class="side-navbar__sub-nav-title"> INVENTORY</p>
+        <ul class="side-navbar__sub-nav">
+          <li><img src="Images/usersicon.svg" alt="users icon" 
+            class="icons"> OTHER HEROES</li>
+          <li><img src="Images/compassicon.png" alt="locations icon" 
+            class="icons"> LOCATIONS</li>
+          <li><img src="Images/workflowicon.svg" alt="workflow icon" 
+            class="icons"> WORKFLOW</li>
+          <li><img src="Images/questboardicon.svg" alt="job-boards icon" 
+            class="icons"> QUEST BOARDS</li>
+          <li><img src="Images/beericon.svg" alt="social icon" 
+            class="icons"> SOCIAL</li>
+        </ul>
+      </li>
+      <li class="border-top">
+        <p class="side-navbar__sub-nav-title">Categories</p>
+        <ul class="side-navbar__sub-nav">
+          <li><input type="checkbox" name="Administrative" 
+            value="Admin" checked> Kingdom Request</li>
+          <li><input type="checkbox" name="Administrative" 
+            value="Admin"> Evil Villains</li>
+          <li><input type="checkbox" name="Administrative" 
+            value="Admin"> Rescue Mission</li>
+          <li><input type="checkbox" name="Administrative" 
+            value="Admin"> Revenge</li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <section class="job-title is-flex">
+    <div>
+    <h3>Mercenary</h3>
+      <p><img src="Images/globeicon.svg" alt="location" class="icons">
+      Myleheigh, CO <span>&#8226;</span> Preview this post</p>
+    </div>
+    <ul class="is-flex">
+      <li class="job-title__status nav-icons"><span class="job-title__status-color"></span> OPEN</li>
+      <li class="job-title__buttons nav-icons"><img src="Images/previewicon.svg" 
+        alt="tag" class="icons"></li>
+      <li class="job-title__buttons nav-icons"><img src="Images/editbutton.svg" 
+        alt="edit" class="icons"></li>
+      <li class="job-title__buttons nav-icons"><img src="Images/trashicon.svg" 
+        alt="trash" class="icons"></li>
+    </ul>
+  </section>
+  <nav class="job-info-nav">
+    <ul class="job-info-nav-media is-flex">
+      <li>SUMMARY</li>
+      <li>SIDEKICK APPLICANTS</li>
+      <li>QUEST BOARD</li>
+      <li>INVENTORY</li>
+      <li>ACTIVITY</li>
+      <li>BROADCAST</li>
+      <li>NOTIFICATIONS</li>
+    </ul>
+  </nav>
+  <section class="chart-section">
+    <div class="doughnut-charts">
+      <div class="chart-section1">
+        <svg width="20%" height="20%" viewBox="0 0 42 42" class="donut">
+          <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+          <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#b1c94e" stroke-width="3" stroke-dasharray="15 85" stroke-dashoffset="40"></circle>
+            <g class="chart-text">
+              <text x="50%" y="50%" class="chart-number">
+                1200
+              </text>
+              <text x="50%" y="50%" class="chart-label">
+                Quests
+              </text>
+            </g>
+          </svg>
+    </div>
+    <div class="chart-section2">
+      <svg width="20%" height="20%" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#b1c94e" stroke-width="3" stroke-dasharray="15 85" stroke-dashoffset="40"></circle>
+          <g class="chart-text">
+            <text x="50%" y="50%" class="chart-number">150</text>
+            <text x="50%" y="50%" class="chart-label">Jobs</text>
+          </g>
+        </svg>
+    </div>
+    <div class="chart-section3">
+          <svg width="20%" height="20%" viewBox="0 0 42 42" class="donut">
+        <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+        <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="25"></circle>
+        <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#b1c94e" stroke-width="3" stroke-dasharray="15 85" stroke-dashoffset="40"></circle>
+          <g class="chart-text">
+            <text x="50%" y="50%" class="chart-number">
+              300
+            </text>
+            <text x="50%" y="50%" class="chart-label">
+              Rescues
+            </text>
+          </g>
+        </svg>
+    </div>
+    <div class="bar-chart">
+      <img src="Images/graph.png" alt="graph image of applicants" class="bar-chart-image">
+    </div>
+     <div class="totals circle-chart-total"><p>TOTALS - Out of 1,650 views</p></div>
+  </div>
+        <section class="divider">
+          <div class="hr-line"></div>
+          <div class="hr-icon"><i class="fas fa-chevron-circle-up"></i></div>
+          <div class="hr-line"></div>
+        </section>
+  </div>
+  </section> 
+  <article>
+    <table class="job-description-table">
+      <col width="25%">
+      <col width="75%">
+      <th colspan="2" class="job-description-table-title">
+        JOB DESCRIPTION <span class="job-description-edit-button">
+        <img src="Images/editbutton.svg" alt="edit" class="icons">Edit </span>
+      </th>
+      <tr>
+        <td>POSITION TITLE</td>
+        <td>Mercenary</td>
+      </tr>
+      <tr>
+        <td>LOCATION</td>
+        <td>Mylehigh, CO</td>
+      </tr>
+      <tr>
+        <td>EMPLOYMENT TYPE</td>
+        <td>Full-time</td>
+      </tr>
+      <tr>
+        <td>EXPERIENCE</td>
+        <td>Mid-level</td>
+      </tr>
+      <tr>
+        <td>STATUS</td>
+        <td>Open</td>
+      </tr>
+      <tr>
+        <td>DESCRIPTION</td>
+        <td>Comely descry urchin waylay worst line of sight massive damage melee alfirin bifur brilthor causeway east-elves ered lindon erestor flower of the west geese green hills of gondor istar lindon lotho sackville-baggins meriadoc brandybuck mirror of galadriel ring of sapphire starwards. </td>
+      </tr>
+      <tr>
+        <td>HIRING LEAD</td>
+        <td><img src="Images/profilepic2.jpeg" alt="female profile pic" class="job-description-table-profile">Nunya Biznes</td>
+      </tr>
+      <tr>
+        <td>SALARY</td>
+        <td><b>3,000 gold pieces plus King's Favor<b></td>
+      </tr>
+    </table>
+  </article>
+  <aside class="social-links">
+    <ul>
+      <li>
+        <ul class="social-links-social">
+          <li class="social-links-color1 is-relative"><img class="icons is-absolute" src="Images/magicmirroricon.svg" 
+            alt="facebook"> Post to MagMir</li>
+          <li class="social-links-color2 is-relative"><img class="icons is-absolute" src="Images/tweeticon.svg" 
+            alt="twitter"> Tweet this Job</li>
+          <li class="social-links-color3 is-relative"><img class="icons is-absolute" src="Images/chainmailicon.svg" 
+            alt="social media link-invalid"> Post to ChnMl</li>
+        </ul>
+      </li>
+      <li>
+        <ul class="social-links-links">
+          <li><img class="icons" src="Images/linkicon.svg" 
+            alt="job link">Link to this Quest</li>
+          <li>Confusticate courtesy mere nook parley varmint supernatural ability basso boffin boss bree-hill caradhras carrock celon dark enemy.</li>
+          <li class="is-flex"><input type="text" placeholder="http://loremipsum Confusticate courtesy mere nook parley varmint supernatural"><span class="social-links-copy-button">COPY</span></li>
+        </ul>
+        <ul class="social-links__links top-bottom-border">
+          <li><img class="icons" src="Images/potionicon.svg" 
+            alt="button widget">Use the Potion Widget</li>
+          <li>Donnamira took fool great goblin iron hills marish mirrormere sammath naur shepherds of the trees snakes torech ungol westernesse.</li>
+          <li class="is-flex"><input type="text" placeholder="http://loremipsum Donnamira took fool great goblin iron hills marish"><span class="social-links-copy-button">COPY</span></li>
+        </ul>
+        <ul class="social-links__links">
+          <li><img class="icons" src="Images/scrollicon.png" 
+            alt="upload resume">Upload Quests by Mail</li>
+          <li>Halifirien harlond in lindon house of eorl hyarmentir ithryn marroc brandybuck mearas morgul-lord rochallor teeth of mordor wolf, carcharoth.</li>
+          <li class="is-flex"><input type="text" placeholder="http://loremipsum Halifirien harlond in lindon house of eorl hyarmentir"><span class="social-links-copy-button">COPY</span></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+</body>
+  <script src="js/charting.js"></script>
+</html>
