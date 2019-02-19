@@ -10,7 +10,7 @@ This project stretched my abilities in new ways (grid, most complex design, svg,
 <h3>Comp vs Personal</h3>
 
 Comp
-[frontend-turing-io-assets-images-static-comp-challenge-3-jpg.png](https://postimg.cc/8f8bBZGJ)
+[![frontend-turing-io-assets-images-static-comp-challenge-3-jpg.png](https://postimg.cc/8f8bBZGJ]
 
 My Comp
-[b-coyle-github-io-bc-staticcomp-challenge-2.png](https://postimg.cc/YvyYzdfr)
+[![b-coyle-github-io-bc-staticcomp-challenge-2.png](https://postimg.cc/YvyYzdfr)]
